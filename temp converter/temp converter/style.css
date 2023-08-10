@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    background: url(temp.jpg) no-repeat center;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    position: sticky;
+    top: 100;
+}
+
+.container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1 {
+    color: rgba(0, 0, 0, 0.9);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    border: 5px solid black ;
+}
+
+input {
+    padding: 5px;
+    width: 150px;
+}
+
+button {
+    /* display: flex; */
+    flex-direction: wrap;
+    padding: 7px 15px;
+    background-color: rgba(100, 1, 100, 0.5);
+    color:rgba(225,225, 225, 1);
+    border: 20px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 20px;
+    border: 100px solid red;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 200px;
+}
